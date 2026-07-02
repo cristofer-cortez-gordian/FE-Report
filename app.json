@@ -1,48 +1,19 @@
 {
   "expo": {
     "name": "FireReport",
-    "slug": "FireReport",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "firereport",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
-        }
-      ]
-    ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "baseUrl": "/FE-Report"
+    },
+    "slug": "FireReport-v3",
+    "scheme": "firereport",
+    "owner": "cristo1327",
+    "extra": {
+      "router": {},
+      "SUPABASE_URL": "https://bzvkeqrwegpvioihzeeu.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ6dmtlcXJ3ZWdwdmlvaWh6ZWV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE4MTIyNzUsImV4cCI6MjA4NzM4ODI3NX0.N0-DVwQE935WqhN2jZRx-uYcYsxU8CY97UmPlLO9XP4",
+      "eas": {
+        "projectId": "7ce18a44-752a-4fbe-b2b3-e6f7d15e26c7"
+      }
     }
   }
 }
