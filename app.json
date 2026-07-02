@@ -1,9 +1,6 @@
 {
   "expo": {
     "name": "FireReport",
-    "experiments": {
-      "baseUrl": "/FE-Report"
-    },
     "slug": "FireReport-v3",
     "scheme": "firereport",
     "owner": "cristo1327",
