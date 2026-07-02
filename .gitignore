@@ -6,7 +6,9 @@ node_modules/
 # Expo
 .expo/
 dist/
+dist-*/
 web-build/
+web-build-*/
 expo-env.d.ts
 
 # Native
@@ -29,8 +31,14 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
+.idea/
+keystore.properties
+scratch.js
+scratch_test.js
+test.js
 
 # local env files
+.env
 .env*.local
 
 # typescript
@@ -41,3 +49,6 @@ app-example
 # generated native folders
 /ios
 /android
+
+# local service state
+supabase/.temp/
